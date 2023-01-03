@@ -1,0 +1,26 @@
+WINDOW:
+   * "window" is the main JavaScript object root,the global object in a browser
+   * This  is also called as root of the DOM(Document Object Module).
+   * You can acces it by using the key word "window"
+   * window is the first thing gets loaded into the browser,when browser is on.
+   * This window object has the majority of properties as shown below:
+                        >length,
+                        >innerwidth,
+                        >innerheight,
+                        >name.
+                       
+DOCUMENT:
+   * The Document object is the things that will loaded into the browser.
+   * Document object are shown below:
+                        >html,
+                        >aspx,
+                        >php,
+                        >other documents.
+   * we can call and see the document object by using the key word "document" or "window.document".
+   * This is the global object it can refer any properties of it with just the property name.
+   
+SCREEN:
+   * The window object also has a screen object with properties descirbing the physical display:
+   * Screen properties "width" and "Height" are the full screen.
+   * screen properties "availWidth" and "availHeight" omit the toolbar.
+   * "window.screen" or "screen" is a key word to see the physical screen dimensions.
